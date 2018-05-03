@@ -12,6 +12,7 @@ public class A3 {
 	         for (int i=0; i<s.length();) {
 	             char c = s.charAt(i++);
 	             System.out.println("字符下标"+i+"字符"+c+indices[c]);
+	             //获取最大下标
 	             if (indices[c] != 0) {
 	                 masked = Math.max(indices[c], masked);
 	             }
